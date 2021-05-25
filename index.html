@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Sopping Zone</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+  
+  <div class="main_container">
+
+    <h2 id="title">Shopping Zone</h2>
+    <hr>
+
+    <div class="produtsInfo">
+
+      <button class="btns">
+        <i class="fas fa-times-circle"></i> 
+      </button>
+      <button class="btns">
+        <i class="far fa-heart"></i>
+      </button>
+      <br>
+
+      <img src="adult.png" id="imgClr"  width="200px" height="150px" alt="Tshirt1">
+     
+      <p class="details">
+        Adidas Round Neck Tee<br>
+      </p>
+
+      <div class="selectColor">
+        <label for="color" id="ImageColor">Color :</label>
+        <select id="color" onchange="colorFunction()">
+          <option value="white">White</option>
+          <option value="black">Black</option>
+          <option value="red">Red</option>
+        </select>
+      </div>
+   
+      <div class="size">
+        <label for="size">Size : </label>
+        <select name="size" id="size">
+          <option value="m">M</option>
+          <option value="l">L</option>
+          <option value="xl">XL</option>
+          <option value="xxl">XXL</option>
+        </select>
+      </div>
+      
+      <a href="#" id="aboutProduct" onclick="myFunction()">About this item</a>
+
+      <p id="info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, delectus?</p>
+    </div>
+
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
